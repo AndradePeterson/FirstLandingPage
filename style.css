@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    background-color: #40513B;
+}
+
+.meuHeader {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #40513B;
+    transition: height 0.3s ease; /* transição suave de altura */
+}
+  
+.logo{
+    display: flex;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 110px;
+    margin-left: 10rem;
+    flex-direction: column;
+    transition: height 0.3s ease; /* transição suave de altura */
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+  
+#nameLogo{
+    margin-left: 8.47rem;
+    margin-top: 6px;
+    display: flex;
+    width: 250px;
+    color: #EDF1D6;
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: medium;
+    text-decoration: overline;
+    transition: height 0.3s ease; /* transição suave de altura */
+}
+  
+.menuHeader {
+    flex: 1;
+    text-align: right;
+    margin-right: 10rem;
+}
+  
+.menuHeader ul {
+    list-style: none;
+}
+
+.menuHeader li a{
+    background-color: #40513B;
+}
+.menuHeader li {
+    display: inline-block;
+    margin-left: 30px;
+}
+  
+.menuHeader li:first-child {
+    margin-left: 0;
+}
+  
+.menuHeader a {
+    color: #EDF1D6;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sequenciaImagensLinha{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 45vh;
+    margin-top: 110px;
+}
+
+.figuraSequenciaImagensLinha{
+    width: 24.68vw;
+    height: 45vh;
+}
+
+.secaoPortifolio{
+    display: flex;
+    background-color: #EDF1D6;
+    height: 360vh;
+    flex-direction: column;
+}
+
+.secaoPortifolio h1{
+    display: flex;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #12220d;
+    background-color: #EDF1D6;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#slogan{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #609966;
+    background-color: #EDF1D6;
+    text-decoration: overline;
+    justify-content: center;
+}
+
+.divFervedouroBelaVistaImagem{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 80px;
+    background-color: #EDF1D6;
+}
+
+#fervedouroBelaVista{
+    width: 400px;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.poemaBrasil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: 130px;
+    gap: 15px;
+    background-color: #EDF1D6;
+}
+
+.poemaBrasil p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color: #12220d;
+    background-color: #EDF1D6;
+}
+
+.secaoPortifolio h2{
+    color: #609966;
+    background-color: #EDF1D6;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+    font-style: italic;
+}
+
+.imagensPortifolio{
+    background-color: #EDF1D6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 100px;
+}
+
+.figuraImagensPortifolio{
+    width: 25vw;
+    height: 60vh;
+    border-radius: 9px;
+    background-color: #EDF1D6;
+}
+
+.enaltecerBrasil{
+    display: flex;
+    align-items: center;
+    height: 75vh;
+    background-attachment: fixed;
+    background-image: url(https://images.unsplash.com/photo-1620218728187-4ebf80e3fb08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    border-top: solid 1px #40513B;
+    border-bottom: solid 1px #40513B;
+}
+
+.enaltecerBrasil h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #609966;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 100%;
+    height: 40px;
+}
+
+a{
+    background-color: #EDF1D6;
+}
+.sobreBrasil{
+    background-color: #609966;
+    height: 40vh;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.sobreBrasil h1{
+    background-color: #609966;
+    display: flex;
+    width: 70%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 13vh;
+    text-align: center;
+    color: white;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#buttonSobreBrasil{
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(-180deg, rgb(33, 243, 79) 0%, rgb(8, 180, 2) 96%);
+    background-position: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    box-shadow: rgb(33, 243, 79) 0px 1px 3px 0px;
+    max-width: 300px;
+    padding: 0px 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
+    height: 60px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 15vh;
+    margin-left: 90px;
+    border: none;
+    text-decoration: none !important;
+    background-repeat: no-repeat !important;
+}
+
+#buttonSobreBrasil:hover{
+    background-image: linear-gradient(-180deg, rgb(30, 218, 71) 0%, rgb(5, 155, 0) 96%);
+}
+
