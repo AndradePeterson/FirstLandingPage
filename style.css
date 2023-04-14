@@ -22,15 +22,15 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 70%;
+    height: 16.7%;
     margin-left: 10%;
     flex-direction: column;
     transition: height 0.3s ease; /* transição suave de altura */
 }
 
 .logo img{
-    width: 20vw;
-    height: 35vh;
+    width: 10%;
+    height: 13%;
 }
   
 #nameLogo{
