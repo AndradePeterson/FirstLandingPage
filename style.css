@@ -78,13 +78,13 @@
 .sequenciaImagensLinha{
     display: flex;
     flex-wrap: nowrap;
-    height: 50vh;
+    height: 20vh;
     margin-top: 7.5%;
 }
 
 .figuraSequenciaImagensLinha{
     width: 25vw;
-    height: 20%;
+    height: 20vh;
 }
 
 .secaoPortifolio{
