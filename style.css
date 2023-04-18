@@ -91,7 +91,7 @@ html {
     height: 35vh;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .figuraSequenciaImagensLinha{
         margin-top: 6em;
         width: 25vw;
@@ -139,7 +139,7 @@ html {
     background-color: #EDF1D6;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .divFervedouroBelaVistaImagem{
         flex-direction: column;
         margin-left: 15%;
@@ -165,7 +165,7 @@ html {
     width: 50%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .poemaBrasil{
         margin-top: 10%;
         text-align: center;
@@ -224,7 +224,7 @@ html {
     border-bottom: solid 1px #40513B;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .enaltecerBrasil{
         height: 30vh;
         margin-top: 4.55%;
@@ -244,7 +244,7 @@ html {
     height: 5%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .enaltecerBrasil h1{
         height: 11%;
         margin-top: 3%;
@@ -303,7 +303,7 @@ a{
     background-repeat: no-repeat !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     #buttonSobreBrasil{
         margin-top: 10%;
     }
