@@ -3,10 +3,6 @@
     background-color: #40513B;
 }
 
-html {
-    font-size: calc(16px + 0.5vw);
-}
-
 .meuHeader {
     display: flex;
     position: fixed;
@@ -26,6 +22,7 @@ html {
     justify-content: center;
     text-align: center;
     margin-left: 5%;
+    gap: 0.2em;
     flex-direction: column;
     transition: height 0.3s ease; /* transição suave de altura */
 }
@@ -87,15 +84,15 @@ html {
 }
 
 .figuraSequenciaImagensLinha{
-    width: 24.8vw;
-    height: 35vh;
+    width: 25vw;
+    height: 50vh;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 2408px) {
     .figuraSequenciaImagensLinha{
-        margin-top: 6em;
+        margin-top: 13vh;
         width: 25vw;
-        height: 15.5vh;
+        height: 14vh;
     }
 }
 
@@ -139,7 +136,17 @@ html {
     background-color: #EDF1D6;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 2408px) {
+    .divFervedouroBelaVistaImagem{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        gap: 1em;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .divFervedouroBelaVistaImagem{
         flex-direction: column;
         margin-left: 15%;
@@ -165,7 +172,13 @@ html {
     width: 50%;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 2408px) {
+    .poemaBrasil{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .poemaBrasil{
         margin-top: 10%;
         text-align: center;
@@ -206,6 +219,13 @@ html {
     background-color: #EDF1D6;
 }
 
+@media screen and (max-width: 2408px) {
+    .figuraImagensPortifolio{
+        width: 40vw;
+        height: 30vh;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .figuraImagensPortifolio{
         width: 36.4vw;
@@ -224,7 +244,7 @@ html {
     border-bottom: solid 1px #40513B;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 768px) {
     .enaltecerBrasil{
         height: 30vh;
         margin-top: 4.55%;
@@ -244,7 +264,7 @@ html {
     height: 5%;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 768px) {
     .enaltecerBrasil h1{
         height: 11%;
         margin-top: 3%;
@@ -303,7 +323,7 @@ a{
     background-repeat: no-repeat !important;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 768px) {
     #buttonSobreBrasil{
         margin-top: 10%;
     }
