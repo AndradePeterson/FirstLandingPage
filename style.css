@@ -32,6 +32,28 @@
     height: auto;
 }
 
+@media screen and (max-width: 2408px) {
+    .logo img{
+        width: 3em;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .logo img{
+        width: 5em;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo img{
+        width: 1em;
+        height: auto;
+    }
+}
+
+
 #nameLogo{
     margin-left: auto;
     margin-top: 4%;
@@ -90,9 +112,8 @@
 
 @media screen and (max-width: 2408px) {
     .figuraSequenciaImagensLinha{
-        margin-top: 13vh;
         width: 25vw;
-        height: 14vh;
+        height: 50vh;
     }
 }
 
@@ -213,7 +234,7 @@
 }
 
 .figuraImagensPortifolio{
-    width: 25vw;
+    width: 15vw;
     height: 60vh;
     border-radius: 9px;
     background-color: #EDF1D6;
@@ -221,8 +242,8 @@
 
 @media screen and (max-width: 2408px) {
     .figuraImagensPortifolio{
-        width: 40vw;
-        height: 30vh;
+        width: 26vw;
+        height: 70vh;
     }
 }
 
@@ -236,7 +257,7 @@
 .enaltecerBrasil{
     display: flex;
     align-items: center;
-    height: 70vh;
+    height: 90vh;
     background-attachment: fixed;
     background-image: url(https://images.unsplash.com/photo-1620218728187-4ebf80e3fb08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
     border-top: solid 1px #40513B;
@@ -262,6 +283,7 @@
     font-size: 0.6em;
     width: 100%;
     height: 5%;
+    margin-top: 10%;
 }
 
 @media screen and (max-width: 768px) {
@@ -290,7 +312,7 @@ a{
     margin-top: 5%;
     text-align: center;
     color: white;
-    font-size: 0.8em;
+    font-size: 1.6em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -306,16 +328,17 @@ a{
     background-color: initial;
     box-shadow: rgb(33, 243, 79) 0px 1px 3px 0px;
     max-width: 300px;
+    width: 10em;
     padding: 0px 40px;
     overflow: hidden;
     text-overflow: ellipsis;
     box-sizing: border-box;
     text-align: center;
     line-height: 5%;
-    height: 4em;
+    height: 6em;
     cursor: pointer;
     font-weight: 400;
-    font-size: 0.6em;
+    font-size: 0.8em;
     margin-top: 5%;
     margin-left: 10%;
     border: none;
