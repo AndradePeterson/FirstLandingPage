@@ -82,6 +82,17 @@
     }
 }
 
+@media (max-width: 190px){
+    #nameLogo{
+        font-size: 10%;
+        width: 500%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+}
+
 .menuHeader {
     flex: 1;
     text-align: right;
@@ -140,6 +151,17 @@
     .figuraSequenciaImagensLinha{
         width: 24.5vw;
         height: 20vh;
+    }
+}
+
+@media (max-width: 190px){
+    .sequenciaImagensLinha{
+        margin-top: 50%;
+    }
+
+    .figuraSequenciaImagensLinha{
+        width: 25vw;
+        height: 10vh;
     }
 }
 
