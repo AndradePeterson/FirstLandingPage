@@ -358,6 +358,15 @@
     }
 }
 
+@media (max-width: 384px){
+    .figuraImagensPortifolio{
+        width: 40vw;
+        height: 30vh;
+        margin-top: 4%;
+    }
+}
+
+
 .enaltecerBrasil{
     display: flex;
     align-items: center;
