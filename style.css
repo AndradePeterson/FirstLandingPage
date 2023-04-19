@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     background-color: #40513B;
 }
 
@@ -8,8 +9,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 30vh;
+    width: 100%;
+    height: 7em;
+    padding: 0;
     justify-content: space-between;
     align-items: center;
     background-color: #40513B;
@@ -17,6 +19,7 @@
 }
 
 .logo{
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,59 +27,61 @@
     margin-left: 5%;
     gap: 0.2em;
     flex-direction: column;
+    width: 6%;
+    height: 7em;
     transition: height 0.3s ease; /* transição suave de altura */
 }
 
 .logo img{
-    width: 2em;
+    width: 3em;
     height: auto;
 }
 
-@media screen and (max-width: 2408px) {
+@media (max-width: 720px){
     .logo img{
-        width: 3em;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .logo img{
-        width: 5em;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .logo img{
-        width: 1em;
-        height: auto;
+        width: 2em;
     }
 }
 
 
 #nameLogo{
-    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
     margin-top: 4%;
     display: flex;
-    width: 100%;
+    width: 200%;
+    height: 14%;
     color: #EDF1D6;
     font-family: fantasy;
     font-weight: 100;
-    font-size: 50%;
+    font-size: 70%;
     text-decoration: overline;
     transition: height 0.3s ease; /* transição suave de altura */
+}
+
+@media (max-width: 720px){
+    #nameLogo{
+        font-size: 40%;
+        width: 200%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
 }
 
 .menuHeader {
     flex: 1;
     text-align: right;
     margin-right: 13%;
-    width: 300%;
 }
   
 .menuHeader ul {
     list-style: none;
-    width: 100%;
+    width: 90%;
+    float: right;
 }
 
 .menuHeader li a{
@@ -106,24 +111,29 @@
 }
 
 .figuraSequenciaImagensLinha{
-    width: 25vw;
+    width: 24.68vw;
     height: 50vh;
 }
 
-@media screen and (max-width: 2408px) {
+@media (max-width: 720px){
     .figuraSequenciaImagensLinha{
-        width: 25vw;
-        height: 50vh;
+        width: 24.25vw;
+        height: 35vh;
     }
 }
-
 
 .secaoPortifolio{
     display: flex;
     background-color: #EDF1D6;
-    height: 320vh;
-    width: 100vw;
+    height: 360vh;
+    width: 99vw;
     flex-direction: column;
+}
+
+@media (max-width: 720px){
+    .secaoPortifolio{
+        height: 475vh;
+    }
 }
 
 .secaoPortifolio h1{
@@ -153,65 +163,53 @@
     display: flex;
     flex-direction: row;
     margin-top: 6%;
-    margin-left: 3%;
+    margin-left: 13%;
     background-color: #EDF1D6;
 }
 
-@media screen and (max-width: 2408px) {
+@media (max-width: 720px){
     .divFervedouroBelaVistaImagem{
         flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        gap: 1em;
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .divFervedouroBelaVistaImagem{
-        flex-direction: column;
-        margin-left: 15%;
     }
 }
 
 #fervedouroBelaVista{
-    width: 16em;
-    height: 16em;
+    width: 20em;
+    height: 20em;
     border-radius: 10px;
+}
+
+@media (max-width: 720px) {
+    #fervedouroBelaVista{
+        width: 13em;
+        height: 13em;
+        margin-left: 22%;
+    }
 }
 
 .poemaBrasil{
     display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     flex-direction: column;
+    margin-left: 7%;
     width: 30vw;
-    margin-left: 10%;
     gap: 1em;
-    background-color: #EDF1D6;
-    width: 50%;
+    background-color: #EDF1D6;   
 }
 
-@media screen and (max-width: 2408px) {
+@media (max-width: 720px){
     .poemaBrasil{
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .poemaBrasil{
-        margin-top: 10%;
-        text-align: center;
+        width: 60vw;
+        margin-top: 3%;
+        margin-left: 7%;
     }
 }
 
 .poemaBrasil p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 0.8em;
+    font-size: 1em;
     color: #12220d;
     background-color: #EDF1D6;
-    width: 100%;
 }
 
 .secaoPortifolio h2{
@@ -225,50 +223,52 @@
     font-style: italic;
 }
 
+@media (max-width: 720px){
+    .secaoPortifolio h2{
+        font-size: 2.6em;
+        width: 99vw;
+        margin-right: 3%;
+    }
+}
+
 .imagensPortifolio{
     background-color: #EDF1D6;
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
-    padding: 7%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .figuraImagensPortifolio{
-    width: 15vw;
-    height: 60vh;
+    width: 26vw;
+    height: 70vh;
     border-radius: 9px;
     background-color: #EDF1D6;
 }
 
-@media screen and (max-width: 2408px) {
+@media (max-width: 720px){
     .figuraImagensPortifolio{
-        width: 26vw;
-        height: 70vh;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .figuraImagensPortifolio{
-        width: 36.4vw;
-        height: 30vh;
+        width: 35vw;
+        height: 60vh;
+        margin-top: 4%;
     }
 }
 
 .enaltecerBrasil{
     display: flex;
     align-items: center;
-    height: 90vh;
+    height: 75vh;
     background-attachment: fixed;
     background-image: url(https://images.unsplash.com/photo-1620218728187-4ebf80e3fb08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
     border-top: solid 1px #40513B;
-    margin-top: 23.43%;
     border-bottom: solid 1px #40513B;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 720px){
     .enaltecerBrasil{
-        height: 30vh;
-        margin-top: 4.55%;
+        height: 50vh;
     }
 }
 
@@ -283,19 +283,18 @@
     font-size: 0.6em;
     width: 100%;
     height: 5%;
-    margin-top: 10%;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 720px){
     .enaltecerBrasil h1{
-        height: 11%;
-        margin-top: 3%;
+        font-size: 0.6em;
     }
 }
 
 a{
     background-color: #EDF1D6;
 }
+
 .sobreBrasil{
     background-color: #609966;
     height: 30vh;
@@ -344,12 +343,6 @@ a{
     border: none;
     text-decoration: none !important;
     background-repeat: no-repeat !important;
-}
-
-@media screen and (max-width: 768px) {
-    #buttonSobreBrasil{
-        margin-top: 10%;
-    }
 }
 
 #buttonSobreBrasil:hover{
