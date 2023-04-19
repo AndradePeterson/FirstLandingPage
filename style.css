@@ -184,7 +184,7 @@
 
 @media (max-width: 384px){
     .secaoPortifolio{
-        height: 363
+        height: 363vh;
     }
 }
 
