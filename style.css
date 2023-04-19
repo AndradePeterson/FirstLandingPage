@@ -51,7 +51,7 @@
     margin-top: 4%;
     display: flex;
     width: 200%;
-    height: 14%;
+    height: 1.3em;
     color: #EDF1D6;
     font-family: fantasy;
     font-weight: 100;
@@ -161,11 +161,12 @@
     }
 }
 
+
 .secaoPortifolio{
     display: flex;
     background-color: #EDF1D6;
     height: 360vh;
-    width: 99vw;
+    width: 100vw;
     flex-direction: column;
 }
 
@@ -199,6 +200,12 @@
     }
 }
 
+@media (max-width: 384px){
+    .secaoPortifolio h1{
+        font-size: 1.6em;
+    }
+}
+
 #slogan{
     display: flex;
     font-size: 1.5em;
@@ -213,6 +220,12 @@
 @media (max-width: 350px){
     #slogan{
         font-size: 0.9em;
+    }
+}
+
+@media (max-width: 384px){
+    #slogan{
+        font-size: 0.8em;
     }
 }
 
@@ -252,6 +265,14 @@
     }
 }
 
+@media (max-width: 384px) {
+    #fervedouroBelaVista{
+        width: 11em;
+        height: 11em;
+        margin-left: 16%;
+    }
+}
+
 .poemaBrasil{
     display: flex;
     text-align: center;
@@ -263,6 +284,14 @@
 }
 
 @media (max-width: 720px){
+    .poemaBrasil{
+        width: 60vw;
+        margin-top: 3%;
+        margin-left: 7%;
+    }
+}
+
+@media (max-width: 384px){
     .poemaBrasil{
         width: 60vw;
         margin-top: 3%;
