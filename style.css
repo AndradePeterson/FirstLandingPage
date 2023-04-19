@@ -182,6 +182,12 @@
     }
 }
 
+@media (max-width: 384px){
+    .secaoPortifolio{
+        height: 410vh;
+    }
+}
+
 .secaoPortifolio h1{
     display: flex;
     font-size: 3em;
@@ -366,7 +372,6 @@
     }
 }
 
-
 .enaltecerBrasil{
     display: flex;
     align-items: center;
@@ -409,6 +414,13 @@
     }
 }
 
+@media (max-width: 384px){
+    .enaltecerBrasil h1{
+        font-size: 0.6em;
+        height: 10%;
+    }
+}
+
 a{
     background-color: #EDF1D6;
 }
@@ -423,6 +435,12 @@ a{
 @media (max-width: 350px){
     .sobreBrasil{
         height: 14vh;
+    }
+}
+
+@media (max-width: 384px){
+    .sobreBrasil{
+        height: 18vh;
     }
 }
 
@@ -442,6 +460,12 @@ a{
 @media (max-width: 350px){
     .sobreBrasil h1{
         font-size: 0.6em;
+    }
+}
+
+@media (max-width: 384px){
+    .sobreBrasil h1{
+        font-size: 0.7em;
     }
 }
 
@@ -476,6 +500,15 @@ a{
 }
 
 @media (max-width: 350px){
+    #buttonSobreBrasil{
+        height: 3em;
+        width: 1em;
+        font-size: 0.6em;
+        text-align: center
+    }
+}
+
+@media (max-width: 384px){
     #buttonSobreBrasil{
         height: 3em;
         width: 1em;
